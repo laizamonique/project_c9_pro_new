@@ -11,7 +11,12 @@ function draw()
 
   // escreva o código para alterar a cor de fundo 
   // para vermelho quando a seta para direita (RIGHT_ARROW) for pressionada
-  
+  if (keyIsDown(RIGHT_ARROW)) 
+  {
+    background("RED");
+    
+  }
+ 
   
 
   if (keyIsDown(LEFT_ARROW)) 
